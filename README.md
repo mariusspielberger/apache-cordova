@@ -1,5 +1,16 @@
 # Mobile development (Apache Cordova)
 
+## Apache Cordova overview
+
+Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies - HTML5, CSS3, and JavaScript for cross-platform development. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's capabilities such as sensors, data, network status, etc.
+
+Use Apache Cordova if you are:
+* a mobile developer and want to extend an application across more than one platform, without having to re-implement it with each platform's language and tool set.
+* a web developer and want to deploy a web app that's packaged for distribution in various app store portals.
+* a mobile developer interested in mixing native application components with a WebView (special browser window) that can access device-level APIs, or if you want to develop a plugin interface between native and WebView components.
+
+For more information visit the Apache Cordova [overview page](https://cordova.apache.org/docs/en/latest/guide/overview/index.html#installing-cordova).
+
 ## Installing node.js
 
 Download and install node.js with the installer provided at [https://nodejs.org/en/download/](https://nodejs.org/en/download/) for the operating system you're currently using. Unfortunately, if you're a windows user, you have to restart your computer.
@@ -31,10 +42,21 @@ You also have to add different platforms for which you want to build your app. I
 * cordova platform add android
 * cordova platform add browser
 
+Before you start your app, you can check the pre-requisites for executing apps at a specific platform by typing in the following command:
+* cordova requirements
+
+### Running on your own device
+
 Select one platform and start these specified app by running one of the following commands:
-* cordova run ios (just possible if you use a Mac OSX)
-* cordova run android
-* cordova run browser
+* cordova run ios --device (just possible if you use Mac OSX)
+* cordova run android --device
+
+### Running on an emulator or web browser
+
+Select one platform and start these specified app by running one of the following commands:
+* cordova emulate ios (just possible if you use Mac OSX)
+* cordova emulate android
+* cordova emulate browser
 
 The easiest way is to use the browser testing because you don't have to install XCode or Android Studio.
 
@@ -45,3 +67,5 @@ For more information, visit the official getting started Apache Cordova website:
 * [Install node.js / npm on windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
 * [NPM behind a proxy server](https://forum.freecodecamp.org/t/npm-behind-a-proxy-server/19386)
 * [Apache Cordova](https://cordova.apache.org/)
+* [Apache Cordova: Overview](https://cordova.apache.org/docs/en/latest/guide/overview/index.html#installing-cordova)
+* [Apache Cordova: Create your first app](https://cordova.apache.org/docs/en/latest/guide/cli/index.html)
