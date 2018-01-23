@@ -51,6 +51,8 @@ Select one platform and start these specified app by running one of the followin
 * cordova run ios --device (just possible if you use Mac OSX)
 * cordova run android --device
 
+If you have problems deploying your app on your iPhone, change the widget id to a name that is compliant with your developer or team signing certificate in the 'config.xml' file. Another option is to open the generated XCode project (*.xcodeproj) an to select 'Automatically manage signing' in the general properties.  
+
 ### Running on an emulator or web browser
 
 Select one platform and start these specified app by running one of the following commands:
@@ -61,6 +63,15 @@ Select one platform and start these specified app by running one of the followin
 The easiest way is to use the browser testing because you don't have to install XCode or Android Studio.
 
 For more information, visit the official getting started Apache Cordova website: [https://cordova.apache.org/#getstarted](https://cordova.apache.org/#getstarted).
+
+## Adding plugins
+
+To add plugins, go to the generated folder in a terminal and execute the commands below. You can search for plugins via command line or this [website](https://cordova.apache.org/plugins/). If you have found a plugin you want to install, just use the second command from below.
+* cordova plugin search camera
+* cordova plugin add cordova-plugin-camera
+
+You can also view your currently installed plugins with this command:
+* cordova plugin ls
 
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
