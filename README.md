@@ -74,6 +74,20 @@ To add plugins, go to the generated folder in a terminal and execute the command
 You can also view your currently installed plugins with this command:
 * `cordova plugin ls`
 
+## config.xml
+
+TODO
+
+## IDEs
+
+A text editor like vi on unix systems or [Atom](https://atom.io/) for all important operating systems could be used.
+
+It's easier to use a so called integrated development environment (IDE) to run the app on a specific device by just clicking the start button.
+
+You can use [WebStorm](https://www.jetbrains.com/webstorm/) with a student license or [Microsoft Visual Studio Code](https://code.visualstudio.com/) that is open source.
+
+Depending on your IDE, maybe some additional configuration and package installations are needed. It's not described in detail here, because it depends on the chosen version. 
+
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
 * [Install node.js / npm on windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
@@ -81,3 +95,5 @@ You can also view your currently installed plugins with this command:
 * [Apache Cordova](https://cordova.apache.org/)
 * [Apache Cordova: Overview](https://cordova.apache.org/docs/en/latest/guide/overview/index.html#installing-cordova)
 * [Apache Cordova: Create your first app](https://cordova.apache.org/docs/en/latest/guide/cli/index.html)
+* [WebStorm](https://www.jetbrains.com/webstorm/)
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/)
