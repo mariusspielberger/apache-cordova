@@ -76,6 +76,39 @@ You can also view your currently installed plugins with this command:
 
 ## config.xml
 
+Is a global configuration file that controls many aspects of a cordova application's behavior. This platform-agnostic XML file is arranged based on the W3C's Packaged Web Apps (Widgets) specification, and extended to specify core Cordova API features, plugins, and platform-specific settings. It's located at `app/config.xml`.
+
+This is a default config.xml file:
+
+```
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>HelloCordova</name>
+  <description>
+      A sample Apache Cordova application that responds to the deviceready event.
+  </description>
+  <author email="dev@cordova.apache.org" href="http://cordova.io">
+      Apache Cordova Team
+  </author>
+  <content src="index.html" />
+  <plugin name="cordova-plugin-whitelist" spec="1" />
+  <access origin="*" />
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
+  <platform name="android">
+      <allow-intent href="market:*" />
+  </platform>
+  <platform name="ios">
+      <allow-intent href="itms:*" />
+      <allow-intent href="itms-apps:*" />
+  </platform>
+</widget>
+```
+
 TODO
 
 ## IDEs
@@ -95,5 +128,6 @@ Depending on your IDE, maybe some additional configuration and package installat
 * [Apache Cordova](https://cordova.apache.org/)
 * [Apache Cordova: Overview](https://cordova.apache.org/docs/en/latest/guide/overview/index.html#installing-cordova)
 * [Apache Cordova: Create your first app](https://cordova.apache.org/docs/en/latest/guide/cli/index.html)
+* [Apache Cordova: config.xml](https://cordova.apache.org/docs/en/latest/config_ref/index.html)
 * [WebStorm](https://www.jetbrains.com/webstorm/)
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
