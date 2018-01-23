@@ -109,7 +109,29 @@ This is a default config.xml file:
 </widget>
 ```
 
-TODO
+Here are some explanations of the most important tags.
+
+The `widget` element is the root element of the document. It should consist of an id which specifies the app's reverse-domain identifier (should be unique) and a version (major / minor / patch).
+
+The `name` tag specifies the app's formal name, as it appears on the device's home screen and within app-store interfaces.
+
+The `description` tag specifies a string that appears withing app-store listings.
+
+The `author` tag specifies contact information that may appear within app-store listings.
+
+The `content` tag specifies the app's starting page in the top-level directory (default: index.html).
+
+The `plugin` tag specifies details about what plugin to restore during a prepare. If you add a plugin via command line and use `--save`, then an entry is automatically inserted in the config.xml file.
+
+The `access` tag defines the set of external domains the app is allowed to communicate with. You can use wildcards.
+
+The `allow-intent` tag controls which URLs the app is allowed to ask the system to open. By default, no external URLs are allowed.
+
+The `allow-navigation` tag controls which URLs the web view itself can be navigated to. Applies to top-level navigations only.
+
+The `platform` tag is used to specify preferences or other elements specific to a particular platform.
+
+You can find the complete documentation [here](https://cordova.apache.org/docs/en/latest/config_ref/index.html).
 
 ## IDEs
 
