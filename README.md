@@ -16,8 +16,8 @@ For more information visit the Apache Cordova [overview page](https://cordova.ap
 Download and install node.js with the installer provided at [https://nodejs.org/en/download/](https://nodejs.org/en/download/) for the operating system you're currently using. Unfortunately, if you're a windows user, you have to restart your computer.
 
 Use a terminal (command line tool) to execute the following commands:
-* node -v
-* npm -v
+* `node -v`
+* `npm -v`
 In both cases, a version number should be shown.
 
 ## Installing Apache Cordova
