@@ -8,4 +8,4 @@ plugins/
 res/
 typings/
 build.json.bak
-
+*.code-workspace
