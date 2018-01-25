@@ -143,6 +143,12 @@ You can use [WebStorm](https://www.jetbrains.com/webstorm/) with a student licen
 
 Depending on your IDE, maybe some additional configuration and package installations are needed. It's not described in detail here, because it depends on the chosen version. 
 
+## Important ionic commands
+
+You can use the following commands to get debugging information in case of errors and it's also possible to automatically re-deploy the app on an emoulator:
+
+```ionic cordova run android --device -lc```   
+
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
 * [Install node.js / npm on windows](http://blog.teamtreehouse.com/install-node-js-npm-windows)
