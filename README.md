@@ -161,23 +161,27 @@ Is the example project that is automatically created while using Cordova whith t
 
 * ```cordova-phone-call```
 
-Is an example for adding a plugin to Cordova. Here, the phone-call-plugin is used to show how simple it is to call a person from your app while clicking a button.
+Is an example for adding a plugin to Cordova. Here, the phone-call-plugin is used to show how simple it is to call a person from your app while clicking a button ("Phone call").
 
-![cordova-phone-call app](./documents/pictures/cordova-phone-call.png)
-
-![cordova-phone-call_1 app](./documents/pictures/cordova-phone-call_1.png)
+<span style="margin-right: 20px">
+  <img src="./documents/pictures/cordova-phone-call.png" width="200px" alt="cordova-phone-call" />
+</span>
+<img src="./documents/pictures/cordova-phone-call_1.png" width="200px" alt="cordova-phone-call_1" />
 
 * ```ionic-google-maps-plugin```
 
-Contains an example code for using Ionic to create the UIs easily. In this example, the well-known Google Maps map is shown with the static position in the US. It's an example how to use plugins in the Ionic environment. You can find detailed information [here](https://github.com/mapsplugin/cordova-plugin-googlemaps).
+Contains an example code for using Ionic to create the UIs easily. In this example, the well-known Google Maps map is shown with a static position in the US. It's an example how to use plugins in the Ionic environment. You can find detailed information for this specific plugin [here](https://github.com/mapsplugin/cordova-plugin-googlemaps).
 
-![ionic-google-maps-plugin app](./documents/pictures/ionic-google-maps-plugin.png)
+<img src="./documents/pictures/ionic-google-maps-plugin.png" width="200px" alt="ionic-google-maps-plugin" />
 
 * ```ionic-hello-world```
 
-Is one example project that is generated while using Ionic. It can be used from every person that wants to build an Ionic app.
+Is one example project that is generated while using Ionic. It can be used from every person that wants to build an Ionic app with tabs showed on the bottom. In this example, there are four different tabs. It can easily be extended.
 
-![ionic-hello-world app](./documents/pictures/ionic-hello-world.png)
+<span style="margin-right: 20px">
+  <img src="./documents/pictures/ionic-hello-world.png" width="200px" alt="ionic-hello-world" />
+</span>
+  <img src="./documents/pictures/ionic-hello-world_1.png" width="200px" alt="ionic-hello-world_1" />
 
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
