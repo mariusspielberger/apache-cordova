@@ -141,13 +141,22 @@ It's easier to use a so called integrated development environment (IDE) to run t
 
 You can use [WebStorm](https://www.jetbrains.com/webstorm/) with a student license or [Microsoft Visual Studio Code](https://code.visualstudio.com/) that is open source.
 
-Depending on your IDE, maybe some additional configuration and package installations are needed. It's not described in detail here, because it depends on the chosen version. 
+Depending on your IDE, maybe some additional configuration and package installations are needed. It's not described in detail here, because it depends on the chosen version.
 
 ## Important ionic commands
 
 You can use the following commands to get debugging information in case of errors and it's also possible to automatically re-deploy the app on an emoulator:
 
 ```ionic cordova run android --device -lc```   
+
+## Example projects of this repository
+
+There are 4 different example projects.
+
+* ```cordova-hello-world``` is the example project that is automatically created while using Cordova whith the command ```cordova create <app-name>```. It can be used from every person that wants to build a plain Cordova app.
+* ```cordova-phone-call``` is an example for adding a plugin to Cordova. Here, the phone-call-plugin is used to show how simple it is to call a person from your app while clicking a button.
+* ```ionic-google-maps-plugin``` contains an example code for using Ionic to create the UIs easily. In this example, the well-known Google Maps map is shown with the static position of the DBHW Mannheim. It's an example how to use plugins in the Ionic environment. You can find detailed information [here](https://github.com/mapsplugin/cordova-plugin-googlemaps).
+* ```ionic-hello-world``` is one example project that is generated while using Ionic. It can be used from every person that wants to build an Ionic app.
 
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
