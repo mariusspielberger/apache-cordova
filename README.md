@@ -162,11 +162,12 @@ Is the example project that is automatically created while using Cordova whith t
 * ```cordova-phone-call```
 
 Is an example for adding a plugin to Cordova. Here, the phone-call-plugin is used to show how simple it is to call a person from your app while clicking a button ("Phone call").
-
-<span style="margin-right: 20px">
-  <img src="./documents/pictures/cordova-phone-call.png" width="200px" alt="cordova-phone-call" />
-</span>
-<img src="./documents/pictures/cordova-phone-call_1.png" width="200px" alt="cordova-phone-call_1" />
+<p align="left">
+  <span style="margin-right: 20px">
+    <img src="./documents/pictures/cordova-phone-call.png" width="200px" alt="cordova-phone-call" />
+  </span>
+  <img src="./documents/pictures/cordova-phone-call_1.png" width="200px" alt="cordova-phone-call_1" />
+</p>
 
 * ```ionic-google-maps-plugin```
 
@@ -178,10 +179,12 @@ Contains an example code for using Ionic to create the UIs easily. In this examp
 
 Is one example project that is generated while using Ionic. It can be used from every person that wants to build an Ionic app with tabs showed on the bottom. In this example, there are four different tabs. It can easily be extended.
 
-<span style="margin-right: 20px">
-  <img src="./documents/pictures/ionic-hello-world.png" width="200px" alt="ionic-hello-world" />
-</span>
-  <img src="./documents/pictures/ionic-hello-world_1.png" width="200px" alt="ionic-hello-world_1" />
+<p align="left">
+  <span style="margin-right: 20px">
+    <img src="./documents/pictures/ionic-hello-world.png" width="200px" alt="ionic-hello-world" />
+  </span>
+    <img src="./documents/pictures/ionic-hello-world_1.png" width="200px" alt="ionic-hello-world_1" />
+</p>
 
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
