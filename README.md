@@ -153,10 +153,31 @@ You can use the following commands to get debugging information in case of error
 
 There are 4 different example projects.
 
-* ```cordova-hello-world``` is the example project that is automatically created while using Cordova whith the command ```cordova create <app-name>```. It can be used from every person that wants to build a plain Cordova app.
-* ```cordova-phone-call``` is an example for adding a plugin to Cordova. Here, the phone-call-plugin is used to show how simple it is to call a person from your app while clicking a button.
-* ```ionic-google-maps-plugin``` contains an example code for using Ionic to create the UIs easily. In this example, the well-known Google Maps map is shown with the static position of the DBHW Mannheim. It's an example how to use plugins in the Ionic environment. You can find detailed information [here](https://github.com/mapsplugin/cordova-plugin-googlemaps).
-* ```ionic-hello-world``` is one example project that is generated while using Ionic. It can be used from every person that wants to build an Ionic app.
+* ```cordova-hello-world```
+
+Is the example project that is automatically created while using Cordova whith the command ```cordova create <app-name>```. It can be used from every person that wants to build a plain Cordova app.
+
+![cordova-hello-world app](./documents/pictures/cordova-hello-world.png)
+
+* ```cordova-phone-call```
+
+Is an example for adding a plugin to Cordova. Here, the phone-call-plugin is used to show how simple it is to call a person from your app while clicking a button.
+
+![cordova-phone-call app](./documents/pictures/cordova-phone-call.png)
+
+![cordova-phone-call_1 app](./documents/pictures/cordova-phone-call_1.png)
+
+* ```ionic-google-maps-plugin```
+
+Contains an example code for using Ionic to create the UIs easily. In this example, the well-known Google Maps map is shown with the static position in the US. It's an example how to use plugins in the Ionic environment. You can find detailed information [here](https://github.com/mapsplugin/cordova-plugin-googlemaps).
+
+![ionic-google-maps-plugin app](./documents/pictures/ionic-google-maps-plugin.png)
+
+* ```ionic-hello-world```
+
+Is one example project that is generated while using Ionic. It can be used from every person that wants to build an Ionic app.
+
+![ionic-hello-world app](./documents/pictures/ionic-hello-world.png)
 
 ## Sources (additional information)
 * [node.js](https://nodejs.org/en/download/)
@@ -168,3 +189,9 @@ There are 4 different example projects.
 * [Apache Cordova: config.xml](https://cordova.apache.org/docs/en/latest/config_ref/index.html)
 * [WebStorm](https://www.jetbrains.com/webstorm/)
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
+
+## License
+
+![Creative Commons (CC BY 4.0)](https://i.creativecommons.org/l/by/4.0/88x31.png)
+
+This project is licensed under [Creative Commons (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
