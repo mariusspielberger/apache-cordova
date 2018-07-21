@@ -157,7 +157,7 @@ There are 4 different example projects.
 
 Is the example project that is automatically created while using Cordova whith the command ```cordova create <app-name>```. It can be used from every person that wants to build a plain Cordova app.
 
-![cordova-hello-world app](./documents/pictures/cordova-hello-world.png)
+<img src="./documents/pictures/cordova-hello-world.png" width="200px" alt="cordova-hello-world" />
 
 * ```cordova-phone-call```
 
